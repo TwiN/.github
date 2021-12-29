@@ -35,3 +35,9 @@ body:
         1. Start the application
         2. Navigate to localhost:8080/metrics
         3. No metrics are displayed
+
+  - id: version
+    type: input
+    attributes:
+      label: "Version"
+      description: "What version are you using?"
