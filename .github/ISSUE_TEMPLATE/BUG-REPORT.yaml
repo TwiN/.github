@@ -32,11 +32,6 @@ body:
       label: "List the steps that must be taken to reproduce this issue"
       description: "Provide a list of steps needed to reproduce the behavior. If any code or configuration is involved, please make sure to format it."
       placeholder: |
-        1. Create a configuration file with the following content:
-        ```yaml
-        metrics: true
-        port: 8080
-        ```
-        2. Start the application
-        3. Navigate to localhost:8080/metrics
-        4. No metrics are displayed
+        1. Start the application
+        2. Navigate to localhost:8080/metrics
+        3. No metrics are displayed
