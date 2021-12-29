@@ -4,7 +4,7 @@ labels:
   - bug
 
 body:
-  - id: bug-description
+  - id: description
     type: textarea
     validations:
       required: true
