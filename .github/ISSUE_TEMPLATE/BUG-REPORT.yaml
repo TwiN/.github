@@ -46,4 +46,4 @@ body:
     type: textarea
     attributes:
       label: "Additional information"
-      description: "Add any extra information about the bug here"
+      description: "Add any other information about the bug here"
