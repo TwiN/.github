@@ -1,0 +1,31 @@
+name: "Feature request"
+description: "Suggest a feature you'd like this repository to have"
+labels: 
+  - feat
+
+body:
+  - id: description
+    type: textarea
+    validations:
+      required: true
+    attributes:
+      label: "Describe the feature request"
+      description: "Describe the feature you'd like this project to have"
+      
+  - id: reason
+    type: textarea
+    attributes:
+      label: "Why do you personally want this feature to be implemented?"
+      description: "Is there a particular reason why you want this feature implemented?"
+      
+  - id: usage-duration
+    type: input
+    attributes:
+      label: "How long have you been using this project?"
+      description: "Feel free to skip this project if you don't want to fill this field."
+
+  - id: additional-information
+    type: textarea
+    attributes:
+      label: "Additional information"
+      description: "Add any other information about the feature request here"
