@@ -41,3 +41,9 @@ body:
     attributes:
       label: "Version"
       description: "What version are you using?"
+      
+  - id: additional-information
+    type: textarea
+    attributes:
+      label: "Additional information"
+      description: "Add any extra information about the bug here"
