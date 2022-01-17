@@ -1,4 +1,4 @@
-# Contributing
+# Contribution Guidelines
 First of all, thank you for your interest in the project.
 
 Regardless of whether you are thinking about creating an issue or opening a pull request, I truly appreciate the help. 
