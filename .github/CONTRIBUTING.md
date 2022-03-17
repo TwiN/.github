@@ -41,9 +41,10 @@ All commits are expected to follow the conventional commits specification.
 <type>[scope]: <description>
 ```
 
-It's not a really big deal if you don't, the commits in your PR will simply be squashed into one with the appropriate format.
+It's not a really big deal if you don't, but the commits in your PR might be squashed into a single commit with the appropriate format.
 
 Here's a few examples of good commit messages:
 - `feat(api): Add endpoint to retrieve images`
 - `fix(alerting): Remove bad parameter from Slack alerting provider`
 - `test(security): Add tests for basic auth with bcrypt`
+- `docs: Add paragraph on running the application locally`
