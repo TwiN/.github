@@ -1,7 +1,7 @@
 name: "Feature request"
 description: "Suggest a feature you'd like this repository to have"
 labels: 
-  - feature
+  - enhancement
 
 body:
   - id: description
