@@ -2,4 +2,7 @@ blank_issues_enabled: true
 contact_links:
   - name: Author's blog
     url: https://twin.sh/
-    about: Visit the author's blog
+    about: Visit my website
+  - name: Sponsor
+    url: https://github.com/sponsors/TwiN
+    about: Buy me a coffee, if you feel like it.
