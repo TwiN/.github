@@ -1,1 +1,5 @@
 blank_issues_enabled: true
+contact_links:
+  - name: Author's blog
+    url: https://twin.sh/
+    about: Visit the author's blog
