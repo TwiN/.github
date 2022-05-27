@@ -7,7 +7,7 @@ Pull requests and issues are exactly what gives me the visibility I need, so tha
 
 
 ## Getting started
-While following the exact process is not mandatory nor enforced, it is recommended to try following it as it may help avoid wasted efforts.
+While following the exact process is neither mandatory nor enforced, it is recommended to try following it as it may help avoid wasted efforts.
 
 
 ### Creating an issue
@@ -15,9 +15,9 @@ Whether you have a **question**, found a **bug**, would like to see a **new feat
 going to be the first step. The issue templates will help guide you, but simply creating an issue with the reason for the creation
 of said issue is perfectly fine.
 
-Furthermore, if you don't want to fix the problem or implement the feature it yourself, that's completely fine. 
-Creating an issue alone will give both the maintainers as well as other members of the community visibility on it,
-which is a lot more likely to get the issue solved than if the problem/request was left told.
+Furthermore, if you don't want to fix the problem or implement the feature yourself, that's completely fine. 
+Creating an issue alone will give both the maintainers as well as the other members of the community visibility on said issue,
+which is a lot more likely to get the issue resolved than if the problem/request was left untold.
 
 
 ### Solving an issue
@@ -41,7 +41,8 @@ All commits are expected to follow the conventional commits specification.
 <type>[scope]: <description>
 ```
 
-It's not a really big deal if you don't, but the commits in your PR might be squashed into a single commit with the appropriate format.
+It's not a really big deal if you don't, but the commits in your PR might be squashed into a single commit
+with the appropriate format at the reviewer's discretion.
 
 Here's a few examples of good commit messages:
 - `feat(api): Add endpoint to retrieve images`
