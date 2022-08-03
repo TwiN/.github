@@ -22,7 +22,7 @@ body:
     type: input
     attributes:
       label: "How long have you been using this project?"
-      description: "Feel free to skip this project if you don't want to fill this field."
+      description: "Feel free to skip this question if you don't want to fill this field."
 
   - id: additional-information
     type: textarea
