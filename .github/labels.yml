@@ -1,5 +1,36 @@
 # This file contains all labels to synchronize across all my repositories
 # The synchronization process is handled by the GitHub action `sync-label`
-- name: dependencies
-  description: Issue or pull request that involves a dependency
-  color: 0366d6
+
+##################
+# DEFAULT LABELS #
+##################
+- name: "bug"
+  description: "Something isn't working"
+  color: "d73a4a"
+- name: "cannot reproduce"
+  description: "Issue cannot be reproduced or is invalid"
+  color: "000000"
+- name: "dependencies"
+  description: "Issue or pull request that involves a dependency"
+  color: "0366d6"
+- name: "documentation"
+  description: "Improvements or additions to documentation"
+  color: "0075ca"
+- name: "duplicate"
+  description: "This issue or pull request already exists"
+  color: "cfd3d7"
+- name: "feature"
+  description: "New feature or request"
+  color: "0052cc"
+- name: "good first issue"
+  description:  "Good for newcomers"
+  color: "7057ff"
+- name: "help wanted"
+  description: "Extra attention is needed"
+  color: "008672"
+- name: "question"
+  description: "Further information is requested"
+  color: "d876e3"
+- name: "wontfix"
+  description: "This will not be worked on"
+  color: "ffffff"
