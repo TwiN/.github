@@ -14,7 +14,7 @@ jobs:
       - uses: micnncim/action-label-syncer@v1
         with:
           token: ${{ secrets.TOKEN_WITH_RW_ACCESS_TO_ISSUES }}
-          prune: true
+          prune: false
           manifest: .github/labels.yml
           repository: |
             TwiN/.github
