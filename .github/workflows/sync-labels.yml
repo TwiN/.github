@@ -1,0 +1,19 @@
+name: sync-labels
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - .github/labels.yml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: micnncim/action-label-syncer@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_WITH_RW_ACCESS_TO_ISSUES }}
+        with:
+          manifest: .github/labels.yml
+          repository: |
+            TwiN/.github
