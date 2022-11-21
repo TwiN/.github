@@ -17,7 +17,7 @@
   color: "cfd3d7"
 - name: "feature"
   description: "New feature or request"
-  color: "0052cc"
+  color: "0e8a16"
 - name: "good first issue"
   description:  "Good for newcomers"
   color: "7057ff"
