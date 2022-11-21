@@ -1,5 +1,5 @@
 # This file contains all labels to synchronize across all my repositories
-# The synchronization process is handled by the GitHub action `sync-label`
+# The synchronization process is handled by the GitHub action `sync-labels`
 - name: "bug"
   description: "Something isn't working"
   color: "d73a4a"
