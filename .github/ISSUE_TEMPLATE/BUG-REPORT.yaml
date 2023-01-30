@@ -1,6 +1,5 @@
 name: "Bug report"
 description: "Report a problem you're experiencing with the repository"
-title: "bug: "
 labels: 
   - bug
 
