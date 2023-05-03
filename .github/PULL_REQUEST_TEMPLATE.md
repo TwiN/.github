@@ -8,4 +8,4 @@
 ## Checklist
 <!-- Replace [ ] by [X] if you have completed the item -->
 - [ ] Tested and/or added tests to validate that the changes work as intended, if applicable.
-- [ ] Added the documentation in `README.md`, if applicable.
+- [ ] Updated documentation in `README.md`, if applicable.
