@@ -27,7 +27,7 @@ body:
   - id: steps-to-reproduce
     type: textarea
     validations:
-      required: true
+      required: false
     attributes:
       label: "List the steps that must be taken to reproduce this issue"
       description: "Provide a list of steps needed to reproduce the behavior. If any code or configuration is involved, please make sure to format it."
